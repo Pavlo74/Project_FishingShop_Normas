@@ -1,0 +1,644 @@
+body{
+    background: rgba(233, 230, 237, 0.30);
+    width: 100%;
+height: 3200px;
+overflow-x:hidden; 
+}
+
+.header-site{
+    width: 1920px;
+height: auto;
+flex-shrink: 0;
+background: #fff;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.header__top {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .logo{
+    display: flex;
+    width: 109px;
+height: 106px;
+margin-left: 150px;
+flex-shrink: 0;
+background: url(images/icon.png), rgb(212, 21, 21) 10% / cover no-repeat;
+
+
+  }
+
+  .header-dropdown{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 200px;
+  }
+
+
+  .navigation a {
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.4%;
+    text-transform: capitalize;
+  }
+
+  .navigation a:hover {
+    color: #FE772D;
+  }
+  
+  .navigation ul {
+    display: flex;
+    gap: 34px;
+    list-style: none;
+  }
+
+  
+
+  .shop-icon{
+     display: flex;
+     padding-left: 100px;
+    padding-right: 50px;
+  }
+
+  .phone-numbers{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 10px;
+margin-right: 50px;
+flex-shrink: 0;
+  }
+
+  .container{
+    width: 1369px;
+height: 2800px;
+margin-top: 20px;
+
+  }
+
+  .carousel{
+    width: 1359px;
+    height: 400px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+  }
+
+  .free-delivery-info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 350px;
+    height: 80px;
+    margin-top: 30px;
+    border-radius: 3px;
+    background: #fff
+  }
+
+  .icon-delivery{
+    width: 75px;
+    height: 35px;
+    background: url(images/van.jpg), lightgray 50% / cover no-repeat;
+    mix-blend-mode: darken;
+    margin-left: 20px;
+  }
+
+  .text-delivery{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+
+  .search-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    width: 350px;
+    height: 110px;
+    margin-top: 30px;
+   justify-content: center;
+    
+    border-radius: 3px;
+    background: #fff
+    
+  }
+
+  .search-text{
+    color: #000;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+  }
+
+  .search-bar{
+    display: flex;
+    flex-direction: row;
+    width: 283px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    background: #FFF;
+    margin-left: 20px;
+
+  }
+
+  .icon-search-bar{
+    margin-left: 10px;
+  }
+
+  .search-text-bar{
+    margin-left: 5px;
+  }
+
+  .product-categories{
+    width: 350px;
+height: 950px;
+margin-top: 30px;
+flex-shrink: 0;
+border-radius: 3px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+background: #FFF;
+  }
+
+  .product-categories-text{
+    color: #000;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+
+  .category{
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+
+  .drop-icon{
+    width: 26px;
+height: 20px;
+flex-shrink: 0;
+    background: url(images/arrow.png);
+  }
+
+  .product-categories-logo{
+    width: 350px;
+    height: 184px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    border-radius: 3px;
+    background: url(images/logo-b_350.jpeg), lightgray -12.342px 0px / 107.595% 100% no-repeat;
+  }
+  
+  .woocommerce-products-header
+  {
+    width: 200px;
+    display: flex;
+padding: 12px 0px 9px 0px;
+flex-direction: column;
+
+justify-content: center;
+align-items: flex-start;
+gap: 11px;
+  }
+
+  .icon-products-header{
+    width: 100px;
+height: 12px;
+    background: url(images/sea_100px.jpg);
+    mix-blend-mode: color-burn;
+  }
+
+  .woocommerce-products-header-text{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .shop-content{
+    width: 980px;
+height: 1962px;
+margin-top: 100px;
+
+display: flex;
+flex-direction: column;
+gap: 40px;
+align-items: center;
+  }
+
+  .all-content{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .card-product{
+    width: 300px;
+height: 460px;
+flex-shrink: 0;
+border-radius: 3px;
+background: #FFF;
+box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.15);
+display: flex;
+flex-direction: column;
+gap: 30px;
+  }
+
+  .row{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .card-img1{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/SquidBloodworm-scaled-300x300.jpeg);
+
+  }
+
+  .card-img2{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/KrillRobinred-1-300x300.jpeg);
+
+  }
+
+
+  .card-img3{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/StrawberrySalmon-scaled-300x300.jpeg);
+
+  }
+
+
+  .card-img4{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/MethodMix4in1Bloodworm-scaled-300x300.jpeg);
+
+  }
+
+
+  .card-img5{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/MethodMix4in1Halibut-scaled-300x300.jpeg);
+
+  }
+
+
+  .card-img6{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/MethodMix4in1TigerNut-scaled-300x300.jpeg);
+
+  }
+
+
+  .card-img7{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/esterfruit-300x300.jpg);
+
+  }
+
+
+  .card-img8{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/mandarin-300x300.jpg);
+
+  }
+
+
+  .card-img9{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/StrawberrySalmon-scaled-300x300.jpeg);
+
+  }
+
+
+  .card-img10{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/halibut-fresh-800x650-1-300x300.webp);
+
+  }
+
+
+  .card-img11{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/krillrobinfresh-800x650-1-300x300.webp);
+
+  }
+
+
+
+  .card-img12{
+    width: 100%;
+height: 240px;
+flex-shrink: 0;
+margin-right: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(images/squidbloodwormsetcoldwaterfresh-800x650-1-300x300.webp);
+
+  }
+
+  .card-text{
+    width: 240px;
+height: 90px;
+flex-shrink: 0;
+    color: #000;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .card-price{
+    color: #000;
+    width: 150px;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+
+  .card-button{
+    width: 100px;
+   margin-top: 20px;
+  margin-left: 35px;
+  font-size: 18px;
+  }
+
+  .card-down{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background: #FFF;
+    align-items: start;
+  }
+
+
+
+  .description-site{
+    width: 980px;
+height: 168px;
+margin-top: 70px;
+margin-left: 380px;
+flex-shrink: 0;
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+  }
+
+  .site-footer{
+    width: 1920px;
+height: 400px;
+flex-shrink: 0;
+margin-top: 40px;
+background: #7F54B3;
+
+  }
+
+  .icon-footer{
+    width: 100px;
+    background: url(images/footer-fog.png) no-repeat center top;
+    background-size: cover;
+    display: block;
+    position: absolute;
+  }
+
+  .footer-block-mailing{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+  .container-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding-top: 50px;
+  }
+
+  h3{
+    color: white;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+  }
+
+  .mailing-text{
+    color: white;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 200;
+  }
+
+
+  .footer-text{
+    color: white;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 200;
+  }
+
+
+  .footer-text:hover {
+    color: #FE772D;
+    cursor: pointer;
+  }
+  .search-footer-mailing{
+    width:390px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icon1-mailing{
+    width: 240px;
+    height: 46px;
+    box-sizing: border-box;
+    background: url(images/pay-1_240.jpg);
+    
+    
+  }
+
+  .icon2-mailing{
+    width: 240px;
+    height: 46px;
+    box-sizing: border-box;
+    background: url(images/pay-2_norm.jpg);
+  }
+
+  .footer-block-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contacts-phone{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .footer-block-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+  .footer-block-partners{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu-content{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .eng{
+    width: 24px;
+    height: 18px;
+    background: url(images/en_24.svg);
+  }
+
+  .pol{
+    width: 24px;
+    height: 18px;
+    background: url(images/pl_24.svg);
+  }
+
+  .ukr{
+    width: 24px;
+    height: 18px;
+    background: url(images/uk_24.svg);
+  }
+
+
+  .language{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+  }
